@@ -25,8 +25,8 @@
 [http://[сервер]/bitrix/admin/partner_modules.php?lang=ru](http://[сервер]/bitrix/admin/partner_modules.php?lang=ru)
 
 ## 4. Далее следовать инструкциям для соответствующего задания
-1. [Задание №1](readme.md#--1)
-2. [Задание №2](readme.md#--2)
+1. [Задание №1](#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-1)
+2. [Задание №2](#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-2)
 
 # Тестовое задание №1
 
