@@ -1,0 +1,29 @@
+{
+  "require": {
+    "andreyryabin/sprint.migration": "dev-master",
+    "wikimedia/composer-merge-plugin": "dev-master"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./php_interface/classes/"
+    }
+  },
+  "extra": {
+    "merge-plugin": {
+      "require": [
+        "../bitrix/composer-bx.json"
+      ]
+    },
+    "installer-paths": {
+      "modules/{$name}/": ["type:bitrix-module"],
+      "modules/{$vendor}.{$name}/": ["type:bitrix-d7-module"],
+      "components/{$name}/": ["type:bitrix-component"],
+      "components/{$vendor}/{$name}/": ["type:bitrix-d7-component"],
+      "templates/{$name}/": ["type:bitrix-theme"],
+      "templates/{$vendor}_{$name}/": ["type:bitrix-d7-template"]
+    }
+  }
+}
